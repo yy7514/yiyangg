@@ -1,8 +1,5 @@
 A3 - README.txt
 
-name: Yiyang Gao
-email: yy396492@dal.ca
-
 Code Source: 
     
     This code is based on codes from CSCI1170 A1 and A2. 
