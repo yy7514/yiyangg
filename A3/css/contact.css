@@ -1,0 +1,61 @@
+
+
+.flex-container {
+    display: flex;  
+    flex-flow: row wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 10%;
+}
+  
+/* multiple selector */
+form, video {
+    flex: 1 1 35%;
+    padding: 2%;
+    margin: 2%;
+}
+
+/* Tablet layout*/
+@media screen and (max-width: 1000px) {
+    .flex-container {
+        display: grid;  
+        flex-flow: row wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        grid-template-areas:
+            "form"
+            "video";
+        gap: 10%;
+    }
+    
+    video {
+        grid-area: video;
+    }
+
+    form {
+        grid-area: form;
+        width: 80%;
+    }
+}
+  
+/* Mobile layout*/
+@media screen and (max-width: 500px) {
+    .flex-container {
+        display: grid;  
+        flex-flow: row wrap;
+        flex-direction: row-reverse;
+        justify-content: center;
+        grid-template-areas:
+            "form"
+            "video";
+        gap: 10%;
+    }
+    
+    video {
+        grid-area: video;
+    }
+
+    form {
+        grid-area: form;
+    }
+}

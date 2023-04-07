@@ -1,0 +1,489 @@
+:root {
+    --defaultBlue: #2D728F;
+    --defaultYellow: #F5EE9E;
+    --defaultOrange: #F49E4C;
+    --defaultRed: #AB3428;
+
+    --darkBlack: #2E282A;
+    --darkWhite: #B7CECE; 
+    --darkPurpel: #8c7aa9; 
+    --darkPink: #fca17d;  
+
+    --lightBlack: #04030F;
+    --lightWhite: #F1F2EB; 
+    --lightPurpel: #575D90; 
+    --lightPink: #F76C5E;  
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+[alt~="Logo"] {
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
+} 
+
+#name {
+    padding-left: 1%;
+    padding-right: 0%;
+}
+
+span {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+/* Hero Imgae */
+.hero-image {
+    margin: 0;
+    padding: 0;
+    background-image: url("../picture/heroImage.png");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    transition: background-image 0.5s ease-in-out;
+}
+
+.hero-image h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+  
+.hero-image p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero-image .content {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--defaultYellow);
+}
+  
+.hero-image button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: var(--defaultYellow);
+    color: var(--defaultBlue);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.content button:hover {
+    background-color: var(--defaultOrange);
+    color: var(--defaultBlue);
+}
+
+
+
+
+
+/* Default mode */
+body{
+    background-color: var(--defaultYellow);
+    color: var(--defaultBlue);
+}
+
+nav > p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--defaultRed);
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--defaultBlue);
+}
+  
+a:hover, a:active{
+    text-decoration: underline;
+    font-weight: normal;
+    color: var(--defaultOrange);
+}
+
+hr {
+    border: 1px solid var(--defaultBlue);
+}
+
+audio::-webkit-media-controls-panel{
+    background-color: var(--defaultOrange);
+}
+
+/* myskills table */
+table tr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: var(--defaultOrange);
+    color: var(--defaultBlue);
+}
+
+td{
+    background-color: var(--defaultYellow);
+}
+
+table td, table th {
+    border: 1px solid var(--defaultBlue);
+    padding: 5px;
+}
+
+/* codesample button */
+#button1{
+    background-color: var(--defaultOrange);
+    border: none;
+    color: var(--defaultBlue);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#button2{
+    background-color: var(--defaultOrange);
+    color: var(--defaultBlue);
+}
+
+#button1:hover {
+    background-color: var(---defaultRed);
+    color: var(--defaultYellow);
+}
+  
+#button2:hover {
+    background-color: var(---defaultRed);
+    color: var(--defaultYellow);
+}
+  
+/* contact info input */
+input[type=text], select {
+    width: 70%;
+    padding: 15px;
+    border-bottom: 1.5px solid var(--defaultBlue);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: var(--defaultYellow);
+}
+
+textarea{
+    background-color: var(--defaultYellow);
+}
+  
+input[type=submit] {
+    background-color: var(--defaultBlue);
+    color: var(--defaultYellow);
+    padding: 12px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: var(--defaultOrange);
+}
+  
+.container {
+    background-color: var(--defaultYellow);
+    padding: 20px;
+}
+
+
+
+/* Dark mode */
+body.dark{
+    background-color: var(--darkBlack);
+    color: var(--darkWhite);
+}
+ 
+.dark nav > p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--darkPink);
+}
+
+.dark a:link, a:visited {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--darkWhite);
+}
+  
+.dark a:hover, a:active{
+    text-decoration: underline;
+    font-weight: normal;
+    color: var(--darkPink);
+}
+
+.dark hr {
+    border: 1px solid var(--darkPurpel);
+}
+
+.dark audio::-webkit-media-controls-panel{
+    background-color: var(--darkPurpel);
+}
+
+/* myskills table */
+.dark table tr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: var(--darkWhite);
+    color: var(--defaultBlue);
+}
+
+.dark td{
+    background-color: var(--darkBlack);
+    color: var(--darkWhite);
+}
+
+.dark table td, table th {
+    border: 1px solid var(--darkPurpel);
+    padding: 5px;
+}
+
+/* codesample button */
+.dark #button1 {
+    background-color: var(--darkPurpel);
+    border: none;
+    color: var(--darkWhite);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.dark #button2{
+    background-color: var(--darkPurpel);
+    color: var(--darkWhite);
+}
+
+.dark #button1:hover {
+    background-color: #cfa17d;
+    color: var(--darkBlack);
+}
+  
+.dark #button2:hover {
+    background-color: #cfa17d;
+    color: var(--darkBlack);
+}
+  
+/* contact info input */
+.dark input[type=text], select, textarea {
+    width: 70%;
+    padding: 15px;
+    border-bottom: 1.5px solid var(--darkWhite);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: var(--darkBlack);
+}
+  
+.dark input[type=submit] {
+    background-color: var(--darkPurpel);
+    color: #2e2a28;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.dark input[type=submit]:hover {
+    background-color: var(--darkPink);
+}
+  
+.dark .container {
+    background-color: #2e2a28;
+    padding: 20px;
+}
+
+/* Hero image */
+.dark .hero-image .content {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--darkWhite);
+}
+  
+.dark .hero-image button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: var(--darkWhite);
+    color: --darkPink;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.dark .content button:hover {
+    background-color: var(--darkPink);
+    color: var(--darkBlack);
+}
+
+
+/* Light mode */
+body.light{
+    background-color: var(--lightWhite);
+    color: var(--lightBlack);
+}
+ 
+.light nav > p {
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    color: var(--lightPink);
+}
+
+.light a:link, a:visited {
+    text-decoration: none;
+    font-weight: normal;
+    color: var(--lightPurpel);
+}
+  
+.light a:hover, a:active{
+    text-decoration: underline;
+    font-weight: normal;
+    color: var(--darkPink);
+}
+
+.light hr {
+    border: 1px solid var(--lightPurpel);
+}
+
+.light audio::-webkit-media-controls-panel{
+    background-color: var(--lightPink);
+}
+
+/* myskills table */
+.light table tr {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: var(--lightPurpel);
+    color: var(--lightWhite);
+}
+
+.light td{
+    background-color: var(--lightWhite);
+    color: var(--lightBlack);
+}
+
+.light table td, table th {
+    border: 1px solid var(--darkPurpel);
+    padding: 5px;
+}
+
+/* codesample button */
+.light #button1, #button2 {
+    background-color: var(--lightPink);
+    border: none;
+    color: var(--lightBlack);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.light #button1:hover {
+    background-color: var(--lightPurpel);
+    color: var(--lightWhite);
+}
+  
+.light #button2:hover {
+    background-color: var(--lightPurpel);
+    color: var(--lightWhite);
+}
+  
+/* contact info input */
+.light input[type=text], select, textarea {
+    width: 70%;
+    padding: 15px;
+    border-bottom: 1.5px solid var(--lightPurpel);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: var(--lightWhite);
+}
+  
+.light input[type=submit] {
+    background-color: var(--lightPink);
+    color: var(--lightBlack);
+    padding: 12px 50px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+  
+.light input[type=submit]:hover {
+    background-color: var(--lightPurpel);
+}
+  
+.light .container {
+    background-color: var(--lightWhite);
+    padding: 20px;
+}
+
+/* Hero image */
+.light .hero-image .content {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--lightWhite);
+}
+  
+.light .hero-image button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: var(--lightPink);
+    color: var(--lightBlack);
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.light .content button:hover {
+    background-color: var(--lightPurpel);
+    color: var(--lightWhite);
+}
+
+
