@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Yiyang Gao</title>
+    <link rel="icon" href="../picture/icon.png">
+  </head>
+
+  <link href="../css/common.css" rel="stylesheet">
+  <link href="../css/contact.css" rel="stylesheet">
+  <script src="../JS/JavaScript.js" defer></script>
+  <script src="../JS/theme.js" defer></script>
+
+    <!-- Top navigation bar -->
+    <nav>
+      <p>
+        <span><a href="index.html">About</a></span>
+        <span><a href="myskills.html">My Skills</a></span>
+        <span><a href="codesamples.html">Code Sample</a></span>
+        <span>Contact</span>
+        <span class="switch">
+          <span class="switch-radios">Theme: 
+              <input type="radio" name="theme-mode" value="one" id="first">
+              <input type="radio" name="theme-mode" value="two" id="second">
+              <input type="radio" name="theme-mode" value="three" id="third">
+          </span>
+          <span class="switch-modes"> 
+              <i class = "default"></i>
+              <i class = "light"></i>
+              <i class = "dark"></i>
+          </span>
+        </span>
+      </p>
+    </nav>
+    <hr>
+    
+    <br>
+    
+    <!-- big header -->
+    <h1>Contact Me</h1>
+
+    <br>
+    
+    <div class="flex-container">
+      <!-- form -->
+      <form action="mailto:yysec002@gmail.com" method="post" enctype="text/plain" id="contactForm">
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+        <br>
+
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <br>
+
+        <textarea id="message" name="message" placeholder="Write something.." style="height:150px"></textarea>
+        <br>
+
+        <input type="submit" value="Submit">
+      </form>
+
+      <!-- video -->
+      <video controls loop muted autoplay width="300" height="450">
+        <source src="../vid&aud/contact.MOV"> Your browser does not support the audio element.
+      </video>
+
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+      <hr>
+        <img src="../picture/icon.png" alt="Website icon" width="40" height="40">
+        <span id="name">Yiyang Gao</span>
+        <a href="https://www.facebook.com/profile.php?id=100089836434398" target="_blank">
+          <img src="../picture/facebook.png" alt="Facebook Logo" width="40" height="40"></a> 
+        <a href="https://instagram.com/g.yiyang?igshid=MWI4MTIyMDE=" target="_blank">
+          <img src="../picture/instagram.png" alt="Instagram Logo" width="40" height="40"></a>
+        <a href="mailto:yysec002@gmail.com">
+          <img src="../picture/email.png" alt="Link to sending email using an Logo of mail." width="40" height="40"></a>
+    </footer>
+
+</html>
