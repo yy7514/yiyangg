@@ -1,18 +1,14 @@
-A3 - README.txt
-
-Code Source: 
-    
-    This code is based on codes from CSCI1170 A1 and A2. 
+README.txt
 
 Things to know: 
 
     There is a css file called: common.css, which is linked to all html files. 
-    For each webpage (html files), there is a corresponding css files. 
+    For each webpage (html files), there is a corresponding css file. 
     There are two javascript files: JavaScript.js and theme.js.
 
 Website Overview:
 
-    This is a personal professional website. Since I aim to be a programmer after I graduate from university. This website is designed for an informative pupose. I wish this website could be helpful for my future carrer, so it contains information, such as personal skills and educational experience. 
+    This is a personal professional website. Since I aim to be a programmer after I graduate from university. This website is designed for an informative purpose. I hope this website will be helpful for my future career, because it contains information, such as personal skills and educational experience. 
 
 Asset Lists: 
 
@@ -27,8 +23,8 @@ Asset Lists:
     1.jpg, 2.jpg, 3.jpg, 4.jpg, 5.jpg, 6.jpg, 7.jpg, 8.jpg, 9.jpg, 10.jpg, 11.jpg, 12.jpg, 13.jpg, 14.jpg, 15.jpg, 16.jpg
     contact.MOV
     Youtube video: "What do programmers do?"
-    Link to facebook page: https://www.facebook.com/profile.php?id=100089836434398
-    Link to instagram page: https://instagram.com/g.yiyang?igshid=MWI4MTIyMDE=
+    Link to Facebook page: https://www.facebook.com/profile.php?id=100089836434398
+    Link to Instagram page: https://instagram.com/g.yiyang?igshid=MWI4MTIyMDE=
     Link to email address: yysec002@gmail.com 
 
 file structure:
