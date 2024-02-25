@@ -29,7 +29,6 @@ Asset Lists:
 
 file structure:
 
-    A3:
         CSS:
             codesamples.css
             common.css
